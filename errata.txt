@@ -1,0 +1,3 @@
+help(os.link) does not appear to be correct regarding the symlinks on Ubuntu.
+In fact, neither this function nor the command-line utility ln will allow you to
+create hard links to symbolic links.
